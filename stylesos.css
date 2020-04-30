@@ -1,0 +1,59 @@
+body {
+    background-color: #2b2b2b;
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pic {
+    width: 800px;
+}
+
+#pic {
+    border-radius: 8px;
+}
+
+table {
+    border: 2px solid cornflowerblue;
+    border-collapse: collapse;
+    width: 600px;
+    text-align: center;
+}
+
+#table th, td {
+    border: 1px solid orchid;
+    padding: 5px;
+}
+
+a {
+    color: lightsalmon;
+  }
+
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    width: fit-content;
+    text-align: left;
+}
+
+#table > h3 {
+    color: darkorange
+}
+
+@media (max-width: 800px) {
+    #myHeader{
+        background-color: chocolate;
+    }
+    #pic {
+        width: 100%;
+    }
+    table {
+        width: 80%;
+    }
+}
+
+@media (min-width: 801px) {
+    #myHeader{
+        background-color: darkorchid;
+    }
+    }
