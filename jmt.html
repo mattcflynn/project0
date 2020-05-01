@@ -1,20 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Example</title>
+  <title>The Trip: a Diary</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <style>
+    body {
+      font: 20px "Montserrat", sans-serif;
+      line-height: 1.8;
+    }
+
+    p {font-size: 16px;}
+
+    .bg-1 {
+      background-color: #4a4b5a;
+      color: #ffffff;
+    }
+    .bg-2 {
+      background-color: #474e5d;
+      color: #ffffff;
+    }
+    .bg-3 {
+      background-color: #ffffff;
+      color: #555555;
+    }
+    .bg-4 {
+      background-color: #2f2f2f;
+      color: #ffffff;
+    }
+    .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .navbar {
+
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+    }
+
+    .navbar-nav li a:hover {
+      color: #1abc9c !important;
+    }
+  </style>
 </head>
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Trip Diary</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="itinerary.html">Itinerary</a></li>
+            <li><a href="jmt.html">John Muir Trail</a></li>
+            <li><a href="nepal.html">Nepal</a></li>
+            <li><a href="nz.html">New Zealand</a></li>
+            <li><a href="patagonia.html">Patagonia</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p>
+
+
+<div class="container-fluid bg-1 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Aug xx, 2010</p>
+      <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+    </div>
+    <div class="col-sm-3">
+        <p>Aug xx, 2010</p>
+        <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+      </div>
+    <div class="col-sm-3">
+      <p>Aug xx, 2010</p>
+      <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+    </div>
+    <div class="col-sm-3">
+      <p>Aug xx, 2010</p>
+      <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+            </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+            </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+        <div class="col-sm-3">
+            <p>Aug xx, 2010</p>
+            <img src="jmt.jpg" class="img-responsive" style="width:100%" alt="JMT">
+        </div>
+  </div>
+  
 </div>
+<footer class="container-fluid bg-4 text-center">
+    <p>Click <a href="itinerary.html"> HERE </a>to go to Itinerary.</p>
+</footer>
 
 </body>
 </html>

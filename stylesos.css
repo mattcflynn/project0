@@ -25,7 +25,11 @@ a {
 }
 
 #link {
-  color: deeppink;
+  color: lightcoral;
+}
+
+#title {
+    color: black
 }
 
 #myHeader {
