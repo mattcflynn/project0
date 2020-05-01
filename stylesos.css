@@ -6,20 +6,17 @@ body {
 
 #pic {
     width: 800px;
-}
-
-#pic {
     border-radius: 8px;
 }
 
-table {
+#itinerary {
     border: 2px solid cornflowerblue;
     border-collapse: collapse;
     width: 600px;
     text-align: center;
 }
 
-#table th, td {
+#itinerary th, td {
     border: 1px solid orchid;
     padding: 5px;
 }
@@ -27,6 +24,10 @@ table {
 a {
     color: lightsalmon;
   }
+
+#link {
+    color: deeppink
+}  
 
 #myHeader {
     background-color: lightblue;
@@ -36,8 +37,14 @@ a {
     text-align: left;
 }
 
-#table > h3 {
+.table > h3 {
     color: darkorange
+}
+
+.list {
+    background-color: dimgray;
+    width: fit-content;
+    color: rgb(255, 240, 30);
 }
 
 @media (max-width: 800px) {
@@ -47,7 +54,7 @@ a {
     #pic {
         width: 100%;
     }
-    table {
+    #itinerary {
         width: 80%;
     }
 }
